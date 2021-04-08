@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+}
+
+nav {
+  width: 99.8%;
+  height: 115px;
+}
+
+nav ul {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+ul li {
+  display: inline-block;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+img {
+  width: 260px;
+}
+
+/* Reducing the profile picture */
+.eph {
+  width: 35px;
+  border-radius: 100%;
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+/* Adjusting the Google logo and positioning it */
+.logo {
+  width: 260px;
+  margin: 100px auto 30px;
+}
+
+/* Positioning the search bar and giving it size and padding */
+.searchbar {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.searchb {
+  padding: 14px;
+  border-width: 1px;
+  border-color: #dadce0;
+  outline: none;
+}
+
+/* Giving the searchbar a radius */
+.searchb {
+  width: 570px;
+  border-radius: 100px;
+}
+
+/* positioning of the icons */
+.fas {
+  position: absolute;
+}
+
+.sea {
+  left: 500px;
+  top: 353px;
+}
+
+.mic {
+  right: 500px;
+  top: 353px;
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle-btn {
+  padding: 8px 14px;
+  margin-top: 20px;
+  font-size: 15px;
+  border-width: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  font-size: 14px;
+}
+
+.offer {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.offer-1 {
+  text-decoration: none;
+  font-size: 12.5px;
+}
+
+.offer-2 {
+  font-size: 12.5px;
+}
+
+.box {
+  position: relative;
+  left: 10px;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  color: #8f8080;
+}
+
+.end-2 {
+  display: flex;
+  width: 99.2%;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: gray;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dadce0;
+}
+
+.container-2 ul {
+  margin-right: 140px;
+}
+
+.container-3 ul {
+  padding-right: 25px;
+}
+
+.leaf {
+  padding-right: 5px;
+  color: #82cc53;
+}
+
+.end {
+  position: relative;
+  top: 195px;
+}
+
+.nig {
+  width: 99.5%;
+  padding-top: 1px;
+  padding-bottom: 7px;
+  padding-left: 0px;
+  padding-right: 0;
+  background-color: #f2f2f2;
+  color: gray;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.nig p {
+  margin-left: 50px;
+}
